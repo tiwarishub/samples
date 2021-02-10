@@ -6,10 +6,10 @@ on:
      - master
 
 env:
-  AZURE_FUNCTIONAPP_NAME: aatiwarishubFunctionApp
+  AZURE_FUNCTIONAPP_NAME: aatiwarishub-linux-dotnetcore
 #  AZURE_FUNCTIONAPP_SLOT_NAME: staging
   AZURE_FUNCTIONAPP_PACKAGE_PATH: core/console-apps/HelloMsBuild/publish
-  AZURE_FUNCTIONAPP_PUBLISH_PROFILE: ${{secrets.aatiwarishubfunctionapp_88c8}}
+  AZURE_FUNCTIONAPP_PUBLISH_PROFILE: ${{secrets.aatiwarishubfunctionapp_ubuntu}}
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 3.1.x
   WORKING_DIRECTORY: core/console-apps/HelloMsBuild
